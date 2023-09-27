@@ -1343,3 +1343,152 @@ h1 {
     font-weight: 400;
     line-height: normal;
 }
+
+.warning_container {
+    padding: 100px 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.warning_container h2 {
+    color: #303030;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.warning_container h3 {
+    color: #303030;
+    font-family: Unbounded;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px 0 35px;
+}
+
+.warning_flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: self-start;
+    width: 100%;
+    position: relative;
+}
+
+.warning_flex .warning_case {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.warning_case .warning_case_img {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    width: fit-content;
+}
+
+.warning_case .warning_case_img::after {
+    content: url(../img/bg/warning.png);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.warning_case .warning_case_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.warning_case h4 {
+    color: #000;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px 0 15px;
+}
+
+.warning_case p {
+    color: rgba(48, 48, 48, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.processes_job {
+    width: 100%;
+    max-width: 1280px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.processes_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.processes_flex .process_box {
+    width: 100%;
+    max-width: 402px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+.processes_flex .process_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.process_box_warning {
+    width: 100%;
+    height: 100%;
+    padding: 24px 25px;
+    border: 2px dashed #3766FC;
+}
+
+.process_box_warning p {
+    color: rgba(11, 22, 43, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    /* 21.6px */
+    margin-top: 14px;
+}
+
+.process_box_warning h4 {
+    color: #0B162B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%;
+    /* 21.6px */
+}
+
+.process_box_warning .flex_align {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.process_box_warning .flex_align img {
+    width: 54.316px;
+    height: 50px;
+}
