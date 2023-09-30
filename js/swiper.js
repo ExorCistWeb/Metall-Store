@@ -8,6 +8,7 @@ var swiper = new Swiper(".appealSwiper", {
 var swiper = new Swiper(".videoSwiper", {
     slidesPerView: 2,
     spaceBetween: 30,
+    centeredSlides: true,
     freeMode: true,
     pagination: {
         el: ".swiper-pagination",
